@@ -1,0 +1,35 @@
+/* #div{
+    animation-duration: 3s;
+    animation-name: yash;
+}
+
+
+@keyframes yash {
+        from{
+            left: 0;
+            rotate: 0;
+            background-color: bisque;
+            box-sizing: ;
+
+        }
+        to{
+            left: 70;
+            rotate: 360deg;
+            background-color: aqua  ;
+
+        }
+} */
+
+    h1::after{
+        color: rgb(160, 49, 49);
+        content: 'subscribe kardo';
+        font-size: 50px;
+        font-family:serif;
+        padding: 5px 10px;
+    }
+    h1::before{
+        content: 'like kardo';
+        color: rgb(126, 32, 215);
+        font-size: 50px;
+        padding: 5px 10px;
+    }
